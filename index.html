@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.3">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;canvas id="confettiCanvas"&gt;&lt;/canvas&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;main class="card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- ORIGINAL CUTE ANIMAL WITH HEART --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- ANIMAL WITH HEART --&gt;</p>
+<p class="p1">&lt;svg class="art" viewBox="0 0 320 240" xmlns="http://www.w3.org/2000/svg"&gt;</p>
+<p class="p1">&lt;defs&gt;</p>
+<p class="p1">&lt;linearGradient id="fur" x1="0" x2="1"&gt;</p>
+<p class="p1">@@ -178,7 +178,7 @@ &lt;h1&gt;Vivi will you be my valentine?&lt;/h1&gt;</p>
+<p class="p1">&lt;button id="noBtn"&gt;No&lt;/button&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- HINT (ONLY FIRST SECTION) --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- HINT --&gt;</p>
+<p class="p1">&lt;div class="hint" id="hint"&gt;“No” seems a bit shy 😈&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section class="result" id="result"&gt;</p>
+<p class="p1">@@ -198,7 +198,7 @@ &lt;h2&gt;YAY! 🎉&lt;/h2&gt;</p>
+<p class="p1">const result = document.getElementById("result");</p>
+<p class="p1">const hint = document.getElementById("hint");</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* ---------- CONFETTI (FIXED FULL SCREEN) ---------- */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* ---------- CONFETTI ---------- */</p>
+<p class="p1">const confettiCanvas = document.getElementById("confettiCanvas");</p>
+<p class="p2"><br></p>
+<p class="p1">function resizeConfettiCanvas() {</p>
+<p class="p1">@@ -292,7 +292,7 @@ &lt;h2&gt;YAY! 🎉&lt;/h2&gt;</p>
+<p class="p1">/* ---------- YES CLICK ---------- */</p>
+<p class="p1">yesBtn.addEventListener("click", () =&gt; {</p>
+<p class="p1">zone.style.display = "none";</p>
+<p class="p1"><span class="Apple-converted-space">      </span>hint.style.display = "none"; <span class="Apple-converted-space">    </span>// ✅ HIDE THE HINT</p>
+<p class="p1"><span class="Apple-converted-space">      </span>hint.style.display = "none"; <span class="Apple-converted-space">    </span>// HIDE THE HINT</p>
+<p class="p1">result.style.display = "block";</p>
+<p class="p1">resizeConfettiCanvas();</p>
+<p class="p1">fullScreenConfetti();</p>
+<p class="p1">@@ -302,3 +302,4 @@ &lt;h2&gt;YAY! 🎉&lt;/h2&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+</body>
+</html>
